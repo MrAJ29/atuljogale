@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="javs.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ......................... Navigation Bar ............................... -->
+    <nav class="navbar">
+        <span class="nav-items">
+            <a href="#" class="logo">Atul Jogale</a>
+            <div class="navbar-menu">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About Me</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#certificate">Work</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+            <span class="icon" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </span>
+        </span>
+    </nav>
+
+    <!-- .........................Home section ..................................... -->
+
+    <div id="home">
+        <div class="home-items">
+            <img src="images\dec2.png" alt="My Image">
+            <div class="content">
+                <h1 class="intro">Hello I'm Atul Jogale</h1>
+                <h2 class="welcome">Welcome to my Workshop</h2>
+                <div class="social-media">
+                    <!-- <p class="f"><a href="#" class="fab fa-facebook-f"></a></p>
+                    <p class="t"><a href="#" class="fab fa-twitter"></a></p>
+                    <p class="i"><a href="#" class="fab fa-instagram"></a></p>
+                    <p class="l"><a href="#" class="fab fa-linkedin-in"></a> -->
+                    <!-- <p class="y"><a href="#" class="fab fa-youtube"></a></p> -->
+                </div>
+                <div class="buttons">
+                    <a href="#contact">Contact Me</a>
+                    <a href="resume\Resume.pdf" download="Atul Jogale">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ............................ About section ...................................... -->
+
+    <div id="about">
+        <div class="about-title">
+            <p class="a-title">About Me</p>
+        </div>
+        <div class="a-content">
+            <h1 class="ab">I am Atul Jogale a web developer and I dedicated to provide you quick and simple web designs.
+                I provide simple and working web-site based on your need. <p id="op">Let's Go, Collaborate and Grow together!</p></h1>
+                <img src="images\staric2.png" alt="Content Image">
+        </div>
+    </div>
+
+    <!-- ............................. Skill section ................................. -->
+
+    <div id="skills">
+        <div class="skill-title">
+            <p>Skills & Abilities</p>
+        </div>
+        <div class="s-content">
+            <div class="skill-bar">
+                <div class="web-p">
+                    <h2 class="web">web design & development</h2>
+                    <div class="bar">
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>css</span>
+                        </div>
+                        <div class="progress-line css"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>javascript</span>
+                        </div>
+                        <div class="progress-line js"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>php</span>
+                        </div>
+                        <div class="progress-line php"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>sql</span>
+                        </div>
+                        <div class="progress-line sql"><span></span></div>
+                    </div>
+                </div>
+                <div class="app-t">
+                    <h2 class="app">Software Programming</h2>
+                    <div class="bar">
+                        <div class="info">
+                            <span>C</span>
+                        </div>
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>c++</span>
+                        </div>
+                        <div class="progress-line css"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>python</span>
+                        </div>
+                        <div class="progress-line js"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>java</span>
+                        </div>
+                        <div class="progress-line php"><span></span></div>
+                    </div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>kotlin</span>
+                        </div>
+                        <div class="progress-line sql"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ............................. Work section ..................................... -->
+
+    <div id="certificate">
+        <div class="cert-title">
+            <p>My Certificates</p>
+        </div>
+    </div>
+
+    <!-- .........................................Contact section ............................................... -->
+
+    <div id="contact">
+        <div class="contact-title">
+            <p>Contact Me</p>
+        </div>
+        <div class="contact-us">
+            <form>
+                <div class="feed-container">
+                    <div id="feed-name">
+                        <input name="name" type="text" class="feedback-name" placeholder="Full Name" />
+                        <input name="email" type="text" class="feedback-name" placeholder="Email" />
+                    </div>
+                    <div id="feed-msg">
+                        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="SUBMIT" />
+            </form>
+        </div>
+    </div>
+
+
+    <div class="back">
+        <button class="btn-back"><a href="#home">Back to Home</a></button>
+    </div>
+
+    <!-- ............................ Footer section ................................. -->
+
+    <div class="footer">
+        <div class="footer-items">
+            <div class="footer-logo">
+                <a href="#" class="f-logo">Atul Jogale</a>
+            </div>
+            <div class="foo-social">
+                <p class="foo-f"><a href="#" class="fab fa-facebook-f"></a></p>
+                <p class="foo-t"><a href="#" class="fab fa-twitter"></a></p>
+                <p class="foo-i"><a href="#" class="fab fa-instagram"></a></p>
+                <p class="foo-l"><a href="#" class="fab fa-linkedin-in"></a>
+                <!-- <p class="foo-y"><a href="#" class="fab fa-youtube"></a></p> -->
+            </div>
+        </div>
+        <hr>
+        <div class="copyline">
+            <p class="coppyright">Copyright-2021 @ <a href="#">Atul jogale</a> | All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</body>
+
+</html>
