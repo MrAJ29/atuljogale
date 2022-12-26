@@ -1,0 +1,130 @@
+#skills {
+	background-color: #ffffff;
+	color: #ac64e6;
+}
+
+.skill-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 50px;
+}
+
+.web-p,
+.app-t {
+	width: 600px;
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 15px 30px;
+	box-shadow: 4px 2px 8px 7px rgb(0 0 0 / 20%);
+}
+
+.web,
+.app {
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px 30px;
+	box-shadow: 4px 2px 8px 7px rgb(0 0 0 / 20%);
+}
+
+.skill-bar .bar {
+	margin: 20px 0;
+}
+
+.skill-bar .bar:first-child {
+	margin-top: 0;
+}
+
+.skill-bar .bar .info span {
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.info {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.skill-bar .bar .progress-line {
+	position: relative;
+	height: 10px;
+	width: 100%;
+	background: #f0f0f0;
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+		0px 1px rgba(255, 255, 255, 0.8);
+}
+
+.bar .progress-line span {
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	background: linear-gradient(90deg, #7982f0, #ac64e6);
+	border-radius: 10px;
+}
+
+.progress-line.html span {
+	width: 93%;
+}
+
+.progress-line.css span {
+	width: 72%;
+}
+
+.progress-line.js span {
+	width: 50%;
+}
+
+.progress-line.php span {
+	width: 60%;
+}
+
+.progress-line.sql span {
+	width: 88%;
+}
+
+.bar .progress-line span::before {
+	position: absolute;
+	content: " ";
+	right: 0;
+	top: -10px;
+	height: 0;
+	width: 0;
+	border: 7px solid transparent;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-color: #000;
+}
+
+.bar .progress-line span::after {
+	position: absolute;
+	content: "80%";
+	right: 0;
+	top: -28px;
+	color: #000;
+	font-size: 12px;
+	font-weight: 500;
+	pad: 1px 8px;
+	border-radius: 3px;
+}
+
+.progress-line.html span::after {
+	content: "93%"
+}
+
+.progress-line.css span::after {
+	content: "72%"
+}
+
+.progress-line.js span::after {
+	content: "50%"
+}
+
+.progress-line.php span::after {
+	content: "60%"
+}
+
+.progress-line.sql span::after {
+	content: "88%"
+}
